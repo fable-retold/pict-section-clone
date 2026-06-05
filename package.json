@@ -1,0 +1,14 @@
+{
+  "name": "pict-section-clone",
+  "version": "0.0.1",
+  "description": "Embeddable Pict view for managing data-mapper Clone configurations: full-table-copy from one beacon to another. CRUD + Run. Used to mirror customer-installed data into a lake.",
+  "main": "source/Pict-Section-Clone.js",
+  "scripts": {
+    "start": "node source/Pict-Section-Clone.js",
+    "test": "npx quack test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pict-view": "^0.0.0"
+  }
+}
